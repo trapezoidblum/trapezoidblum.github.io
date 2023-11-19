@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: white; /* Light gray background color */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: Helvetica, Arial, sans-serif; /* Set default font family */
+}
+
+.main-div {
+    max-width: 800px;
+    margin: 0 auto; /* Center the div horizontally */
+    text-align: left; /* Align text to the left within the div */
+}
+
+.header-div {
+    background-color: white;
+    position: sticky;
+    top: 0; /* Adjust this value based on your layout */
+    z-index: 100; /* Adjust the z-index to ensure it appears above other elements */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+.body-div {
+    max-width: 1000px;
+    margin: 0 auto; /* Center the div horizontally */
+    text-align: left; /* Align text to the left within the div */
+}
+
+img {
+    max-width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+nav {
+    margin: 10px 0; /* Add some space above and below the navigation */
+    text-align: left; /* Center the links within the navigation */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: white; /* Text color for the footer */
+    padding: 10px;
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Stick to the bottom of the screen */
+    width: 100%; /* Full width */
+    text-align: center; /* Center the text within the footer */
+}
